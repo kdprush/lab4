@@ -13,11 +13,11 @@
             <div><label>Last Name: <input type="text" name="last_name_field"></label></div>
             <div><label>Phone: <input type="text" name="phone_field"></label></div>
             <div><label>Email: <input type="text" name="email_field"></label></div>
-            <div><label>Gender:
-                <input type="radio" name="gender_field" value="male">Male</label>
-                <label><input type="radio" name="gender_field" value="female">Female</label>
-            </div>
-            <div><label>Age:
+            <div>Gender: </div>
+            <label><input type="radio" name="gender_field" value="male">Male</label>
+            <label><input type="radio" name="gender_field" value="female">Female</label>
+            
+                <div><label>Age:
                 <select name="age_field">
                     <option>Under 18</option>
                     <option>18 - 24</option>
@@ -32,7 +32,7 @@
 
         <fieldset>
             <legend><strong>My Availibility</strong></legend>
-            <div>Days Availible:
+            <div>
                 <div><label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label></div>
                 <div><label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label></div>
                 <div><label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label></div>
@@ -41,11 +41,11 @@
                 <div><label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label></div>
                 <div><label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label></div>
             </div>
-            <div>Any comments?
-                <div><textarea name="comments_field" placeholder="Enter comments here..."></textarea></div>
-            </div>
+            <div><strong>Comments? Concerns? Allergies?
+                <div><textarea name="comments_field" placeholder="Drop them here..."></textarea></div>
+            </strong></div>
         </fieldset>
-        <input type="hidden" name="hidden_field" value="kprush">
+        <input type="hidden" name="hidden_field" value="katniss">
         <input type="submit" value="Submit Form">
     </form>
 </body>
